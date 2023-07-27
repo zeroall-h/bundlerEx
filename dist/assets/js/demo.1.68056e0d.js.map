@@ -1,0 +1,1 @@
+{"version":3,"file":"assets/js/demo.1.68056e0d.js","mappings":"AAAAA,QAAQC,IAAI","sources":["webpack://webpack-html-scss-boilerplate/./src/views/pages/demo/demo.js"],"sourcesContent":["console.log('>> Demo');\r\n"],"names":["console","log"],"sourceRoot":""}
