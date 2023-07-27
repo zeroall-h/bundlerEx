@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
         // verbose: 'auto', // output information about the process to console in development mode only
 
         entry: {
-          index: './src/views/pages/ejsPage/index.ejs',
+          index: './src/views/pages/ejsPage/index.html',
           404: './src/views/pages/404/index.html',
           about: './src/views/pages/about/index.html',
           home: './src/views/pages/home/index.html',
