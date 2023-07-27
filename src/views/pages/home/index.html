@@ -1,0 +1,19 @@
+<%- include('/src/views/layouts/default.html'); %>
+<!-- load specific page style -->
+<link href="./style.scss" rel="stylesheet">
+
+<!-- load specific page script -->
+<script src="./home.js"></script>
+
+<section>
+  <div class="container flex-column center-x">
+    <h1>Home</h1>
+    <div class="teaser">Simple multipage boilerplate using HTML, SCSS, JS.</div>
+    <img class="home-image" src="@images/dolphin.jpg">
+  </div>
+</section>
+
+  <!-- Footer -->
+  <div class="footer-container">
+    <%- include('/src/views/partials/footer.html'); %>
+  </div>

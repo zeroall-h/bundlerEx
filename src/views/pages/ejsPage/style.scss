@@ -1,0 +1,11 @@
+@use '@styles/main.scss';
+@use '@styles/abstracts/_variables.scss' as var;
+
+h1 {
+  color: royalblue;
+}
+
+.wrap{
+  padding: 30px;
+  margin: 0 auto;
+}

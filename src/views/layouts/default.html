@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>default 페이지</title>
+
+  <!-- load source favicon via Webpack alias '@images' -->
+  <link href="@images/favicon.png" rel="icon" type="image/png">
+
+  <!-- load global source script via Webpack alias '@scripts' -->
+  <script src="@scripts/common.js" defer="defer"></script>
+
+  <!-- block for specific page styles -->
+
+</head>
+<body>
+  <!-- Header -->
+  <div class="header-container">
+    <div class="header-content">
+      <a class="header-left" href="index.html">
+        <img class="app-logo" src="@images/app-logo.svg"><span>App demo</span>
+      </a>
+      <%- include('/src/views/partials/navigation.html'); %>
+      <div class="header-right"></div>
+    </div>
+  </div>
+
+
+
+
+  <!-- block for specific page scripts -->
+</body>
+</html>

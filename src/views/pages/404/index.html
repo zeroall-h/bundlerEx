@@ -1,0 +1,16 @@
+<%- include('/src/views/partials/header',{
+  title: '<title>404페이지</title>'
+}); %>
+  <!-- load source favicon via Webpack alias '@images' -->
+  <link href="@images/favicon.png" rel="icon" type='image/png'>
+  <!-- inline source style from local directory -->
+  <link href="style.scss" rel="stylesheet">
+</head>
+<body>
+  <h1>404</h1>
+  <h2>Page Not Found</h2>
+  <p>
+    <a href="index.html">Go Home</a>
+  </p>
+</body>
+</html>

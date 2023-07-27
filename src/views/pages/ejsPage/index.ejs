@@ -1,0 +1,16 @@
+<%- include('/src/views/partials/header',{
+  title: '<title>안녕하세요 첫페이집니다</title>'
+}); %>
+<link href="style.scss" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <%- include('/src/views/partials/navigation.html'); %>
+    <%- include('/src/views/partials/list_basic.ejs',{
+      headline: 'Breaking Bad',
+      people: ['Walter White', 'Jesse Pinkman', 'nemo', 'hiveLab'],
+    }); %>
+    <%- include('/src/views/partials/footer.html'); %>
+  </div>
+</body>
+</html>
